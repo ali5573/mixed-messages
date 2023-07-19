@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.container{
+    background-color: black;
+    height: 25rem;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 5rem;
+    border: 5px solid white;
+    margin: 0 auto;
+
+}
+#btn{
+background-color: rgb(148, 161, 161);
+border-radius: 10px;
+color: white;
+height: 8rem;
+width: 10rem;
+font-size: larger;
+font-weight: bold;
+}
+#output{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+    height: auto;
+    white-space: pre;
+}
